@@ -2,7 +2,7 @@
 
 ### Run script
 ```bash
-chmod +x script.sh && ./script.sh
+./script.sh
 ```
 
 Alternatively, run each step manually. For each step, copy the code snippet using the icon on the top right and paste it in the console. Replace every [PROPERTY] with the appropriate value.
