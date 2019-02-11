@@ -1,4 +1,4 @@
-# Scripted DevicePilot onboarding for Google Cloud IoT Core users
+# Scripted onboarding for Google Cloud IoT Core users
 
 ### Run script
 ```bash
