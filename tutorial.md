@@ -30,7 +30,7 @@ gcloud iam service-accounts create devicepilot-subscriber --display-name "Device
 
 ### Create subscription
 ```bash
-gcloud pubsub subscriptions create devicepilot-subscription --topic=$TOPIC_ID --topic-project=$PROJECT_ID
+gcloud pubsub subscriptions create devicepilot-subscription --topic=$TOPIC --topic-project=$PROJECT_ID
 ```
 
 ### Add service account to subscription
