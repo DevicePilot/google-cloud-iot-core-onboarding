@@ -13,6 +13,7 @@ gcloud projects list && read -p "PROJECT_ID: " PROJECT_ID
 ```
 
 ### Configure topic
+(select, copy and paste this code manually, without using the top right icon)
 ```bash
 gcloud pubsub topics list | sed -n 's/.*\/topics\///p' && read -p "Topic: " TOPIC
 ```
