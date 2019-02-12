@@ -21,3 +21,5 @@ gcloud beta pubsub subscriptions add-iam-policy-binding devicepilot-subscription
 
 echo Creating key...
 gcloud iam service-accounts keys create --iam-account=$IAM_ACCOUNT key.json
+
+echo All steps completed successfully. Too copy the key follow instructions in the right panel
