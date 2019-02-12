@@ -5,7 +5,7 @@
 ./script.sh
 ```
 
-Click <walkthrough-editor-open-file filePath="google-cloud-iot-core-onboarding/key.json">here</walkthrough-editor-open-file> to open key file and copy its content into DevicePilot.
+When prompted click <walkthrough-editor-open-file filePath="google-cloud-iot-core-onboarding/key.json">here</walkthrough-editor-open-file> to open key file and copy its content into DevicePilot.
 
 Alternatively, follow each step manually in the next page.
 
