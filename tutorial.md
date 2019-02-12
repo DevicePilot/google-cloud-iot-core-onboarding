@@ -5,6 +5,8 @@
 ./script.sh
 ```
 
+Click <walkthrough-editor-open-file filePath="google-cloud-iot-core-onboarding/key.json">here</walkthrough-editor-open-file> to open key file and copy its content into DevicePilot.
+
 Alternatively, run each step manually. For each step, copy the code snippet using the icon on the top right and run it in the console.
 
 ### Configure project
@@ -43,8 +45,5 @@ gcloud beta pubsub subscriptions add-iam-policy-binding devicepilot-subscription
 gcloud iam service-accounts keys create --iam-account=devicepilot-subscriber@$PROJECT_ID.iam.gserviceaccount.com key.json
 ```
 
-### Copy key to DevicePilot
-Copy the output of the command bellow into DevicePilot
-```bash
-cat key.json
-```
+### Copy key into DevicePilot
+Click <walkthrough-editor-open-file filePath="google-cloud-iot-core-onboarding/key.json">here</walkthrough-editor-open-file> to open key file and copy its content into DevicePilot.
